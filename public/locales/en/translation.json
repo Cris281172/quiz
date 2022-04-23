@@ -1,0 +1,19 @@
+{
+  "Settings": {
+    "metaTitle": "Settings",
+    "title": "Settings",
+    "chooseLanguage": "Select a language"
+  },
+  "Header": {
+    "links": {
+      "1": "How to play?",
+      "2": "Author",
+      "3": "Settings",
+      "4": "Contact",
+      "5": "Play"
+    }
+  },
+  "GlobalReturnToMenu": {
+    "title": "Back to home page"
+  }
+}

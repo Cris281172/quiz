@@ -1,0 +1,29 @@
+.autorWrapper {
+  margin-bottom: 100px;
+  display: grid;
+  gap: 50px;
+  background-color: #F4E6C1;
+  padding: 80px 50px;
+  border: 2px solid #a4a4a4;
+  margin-top: -2px;
+  z-index: 2;
+  border-top: 0;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  .autorTitle {
+    font-size: 40px;
+    text-align: center;
+    color: #E99557;
+  }
+  .autorText {
+    font-size: 20px;
+    color: gray;
+    margin-top: 25px;
+
+    .autorPageLink {
+      text-decoration: none;
+      font-weight: bold;
+      color: #c4c4c4;
+    }
+  }
+}

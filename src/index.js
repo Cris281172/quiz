@@ -1,12 +1,18 @@
-import React from 'react';
+import React, {Suspense} from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './i18n'
+import LoadingScreen from './components/LoadingScreen'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+      <Suspense fallback={(<LoadingScreen />)}>
+          <App />
+
+      </ Suspense >
+
   </React.StrictMode>,
   document.getElementById('root')
 );

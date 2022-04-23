@@ -1,0 +1,19 @@
+{
+  "Settings": {
+    "metaTitle": "Ustawienia",
+    "title": "Ustawienia",
+    "chooseLanguage": "Wybierz język"
+  },
+  "Header": {
+    "links": {
+      "1": "Jak grać?",
+      "2": "Autor",
+      "3": "Ustawienia",
+      "4": "Kontakt",
+      "5": "Graj"
+    }
+  },
+  "GlobalReturnToMenu": {
+    "title": "Wróc do strony głównej"
+  }
+}

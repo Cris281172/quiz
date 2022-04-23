@@ -1,0 +1,41 @@
+.languagesTitle {
+  width: 100%;
+  color: #E99557;
+  font-size: 30px;
+}
+
+
+
+.languagesItems {
+  display: flex;
+  justify-content: center;
+  .languagesItem{
+    text-align: center;
+    border: 2px solid #a4a4a4;
+    cursor: pointer;
+    animation: scale 1s;
+    position: relative;
+    overflow: hidden;
+    padding: 25px;
+    font-size: 25px;
+    color: #E99557;
+    text-decoration: none;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F4E6C1;
+    margin-top: 15px;
+    margin-left: 15px;
+
+
+
+  }
+
+}
+
+
+
+.languagesItem.languagesItemFirst {
+  margin-left: 0;
+}

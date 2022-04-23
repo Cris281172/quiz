@@ -1,0 +1,137 @@
+.firstNav {
+  background-color: #F4E6C1;
+  padding: 80px 50px;
+  border: 2px solid #a4a4a4;
+  margin-top: -2px;
+  z-index: 2;
+  border-top: 0;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+
+  .questionInformation {
+    display: flex;
+    justify-content: space-between;
+
+    .lifeBuoysWrapper {
+      border: 2px solid #a4a4a4;
+      padding: 25px;
+
+      .lifeBuoyTitle {
+        font-weight: bold;
+        font-size: 25px;
+        color: #E99557;
+        text-align: center;
+      }
+
+      .lifeBuoyItems {
+        border: 2px solid #a4a4a4;
+        margin-top: 10px;
+
+        .lifeBuoysItem {
+          text-align: center;
+          margin: 10px;
+
+          .lifeBuoysItemButton {
+            color: #E99557;
+            font-size: 20px;
+            border: 1px solid #a4a4a4;
+            background: none;
+            padding: 10px;
+            width: 100%;
+            cursor: pointer;
+            position: relative;
+
+
+          }
+
+          .lifeBuoysItemButton.used {
+            cursor: not-allowed;
+            &:before {
+              content: "";
+              position: absolute;
+              width: 100%;
+              height: 5px;
+              background-color: rgba(255, 0, 0, 0.42);
+              left: 0;
+              top: 50%;
+              transform: translateY(-50%) rotate(5deg);
+              animation: lifeBuoysUsedAnimation 1s;
+            }
+          }
+        }
+      }
+    }
+
+  }
+
+  .questionWrapper {
+    text-align: center;
+    margin-top: 50px;
+
+    .questionTitle {
+      font-size: 25px;
+      font-weight: bold;
+      white-space: pre-line;
+    }
+
+    .questionDescription {
+      white-space: pre-line;
+      text-align: left;
+      margin-top: 20px;
+      font-size: 21px;
+    }
+
+    .answersWrapper {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 25px;
+      margin-top: 35px;
+
+      .answer {
+        border: 2px solid #a4a4a4;
+        padding: 25px;
+        font-size: 25px;
+        color: #E99557;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.returnButton {
+  position: fixed;
+  font-weight: bold;
+  font-size: 25px;
+  bottom: 15px;
+  left: 15px;
+  background-color: #F4E6C1;
+  color: #E99557;
+  padding: 40px 100px;
+  border: 2px solid #a4a4a4;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.answer.unknownAnswer {
+  background-color: gray;
+
+}
+
+.answer.correctAnswer {
+  background-color: green;
+}
+.answer.unCorrectAnswer {
+  background-color: red;
+}
+
+
+@keyframes lifeBuoysUsedAnimation {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}

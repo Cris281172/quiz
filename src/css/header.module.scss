@@ -1,0 +1,170 @@
+.container {
+  max-width: 1240px;
+  margin: auto;
+}
+
+.mainNav {
+  padding-bottom: 50px;
+
+  .firstNav {
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    background-color: #F4E6C1;
+    padding: 80px 50px;
+    border: 2px solid #a4a4a4;
+    margin-top: -2px;
+    z-index: 2;
+    border-top: 0;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+    .navElement{
+      text-align: center;
+      border: 2px solid #a4a4a4;
+      cursor: pointer;
+      animation: scale 1s;
+      position: relative;
+      overflow: hidden;
+
+      &:hover{
+        &:before{
+          width: 50%;
+
+        }
+        &:after{
+          width: 50%;
+
+        }
+
+        .titleIconSettings {
+          transform: rotate(180deg);
+        }
+        .titleIconPlay {
+          transform: rotate(90deg);
+        }
+        .titleIconHowToPlay{
+          transform: scale(1.2);
+        }
+        .titleIconAuthor{
+          animation: titleIconAuthorAnimation 0.6s;
+        }
+        .titleIconContact {
+          animation: titleIconContactAnimation 0.6s;
+        }
+      }
+
+      &:before{
+        transition: 0.4s;
+
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 0;
+        background-color: #e8e8e8;
+
+      }
+
+      &:after{
+        transition: 0.4s;
+
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 0;
+        background-color: #e8e8e8;
+
+      }
+
+      .title {
+        padding: 50px;
+
+        font-size: 35px;
+        color: #E99557;
+        text-decoration: none;
+        z-index: 2;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .titleIconPlay {
+          transition: 0.4s;
+          margin-left: 5px;
+        }
+
+        .titleIconSettings {
+          transition: 0.4s;
+          margin-left: 15px;
+        }
+
+        .titleIconHowToPlay {
+          margin-left: 15px;
+          transition: 0.5s;
+        }
+
+        .titleIconAuthor {
+          margin-left: 10px;
+        }
+
+        .titleIconContact {
+          margin-left: 10px;
+
+        }
+
+      }
+      &:nth-last-of-type(1) {
+        grid-column-start: 1;
+        grid-column-end: 3;
+      }
+    }
+
+  }
+
+
+}
+
+@keyframes scale {
+  0%{
+    transform: scale(0);
+  }
+
+  100%{
+    transform: scale(1);
+  }
+}
+
+@keyframes titleIconAuthorAnimation {
+  0%{
+    transform: rotate(0);
+  }
+  33%{
+    transform: rotate(30deg);
+  }
+  66%{
+    transform: rotate(-30deg);
+  }
+  100%{
+    transform: rotate(0);
+  }
+}
+
+@keyframes titleIconContactAnimation {
+  0%{
+    transform: rotate(0);
+  }
+  33%{
+    transform: rotate(20deg);
+  }
+  66%{
+    transform: rotate(-20deg);
+  }
+  100%{
+    transform: rotate(0);
+  }
+}

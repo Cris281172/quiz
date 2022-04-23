@@ -1,0 +1,15 @@
+.footerBackground {
+  background-color: #F4E6C1;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  padding: 35px 0;
+  text-align: center;
+  border-top: #3c3c3c 1px solid;
+  left: 0;
+
+  .footerText {
+    font-size: 25px;
+    color: #E99557;
+  }
+}

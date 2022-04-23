@@ -1,0 +1,75 @@
+.gameCategory {
+  margin-bottom: 50px;
+  .gameList {
+    display: flex;
+    flex-direction: column;
+
+
+    .itemLink {
+      text-decoration: none;
+      padding: 50px 0;
+      margin-bottom: 50px;
+      border-radius: 60px;
+      transition: 0.5s;
+
+      &:nth-child(1){
+        color: #e24f24;
+        background-color: rgba(226, 79, 36, 0.3);
+
+        &:hover{
+          background-color: rgba(226, 79, 36, 0.5);
+        }
+      }
+
+      &:nth-child(2){
+        color: #1471b6;
+        background-color: rgba(20, 113, 182, 0.3);
+
+        &:hover{
+          background-color: rgba(20, 113, 182, 0.5);
+        }
+      }
+
+      &:nth-child(3){
+        color: #f5d93d;
+        background-color: rgba(245, 217, 61, 0.3);
+
+        &:hover{
+          background-color: rgba(245, 217, 61, 0.5);
+        }
+      }
+
+
+      &:nth-child(4){
+        color: #60dafb;
+        background-color: rgba(96, 218, 251, 0.3);
+
+        &:hover{
+          background-color: rgba(96, 218, 251, 0.5);
+        }
+      }
+      &:nth-child(5){
+        color: #41b582;
+        background-color: rgba(65, 181, 130, 0.3);
+
+        &:hover{
+          background-color: rgba(65, 181, 130, 0.5);
+        }
+      }
+
+
+      .item {
+        display: flex;
+        justify-content: center;
+
+        .itemIcon {
+          font-size: 150px;
+        }
+        .itemTitle {
+          margin-left: 25px;
+          font-size: 150px;
+        }
+      }
+    }
+  }
+}

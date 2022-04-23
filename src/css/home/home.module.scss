@@ -1,0 +1,28 @@
+.homeBackground {
+  background-image: url('../../images/header-background.jpg');
+  min-height: 100vh;
+  .home{
+    display: flex;
+    justify-content: center;
+    background-color: #F4E6C1;
+    padding: 40px 0;
+    border-bottom: 2px solid #a4a4a4;
+
+    .homeTitle {
+      position: relative;
+      color: #E99557;
+      font-size: 70px;
+      font-weight: bold;
+      animation: slideLeft 1s ;
+    }
+  }
+
+  @keyframes slideLeft {
+    0%{
+      left: -100%;
+    }
+    100%{
+      left: 0;
+    }
+  }
+}
