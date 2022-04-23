@@ -2,46 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87e3682d-d65e-458b-87a1-ed1c93908c93" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Layout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/LifeBuoysDescription.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/NoMatch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/game/QuizGame.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/home/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/home/Home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/alertWindow.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/autor.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/chooseGameCategory.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/contact.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/footer.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/footerSettings.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/globalHeaderStyle.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/globalReturnToMenu.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/header.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/home/home.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/informationSection.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/languagesHandler.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/lifeBuoys.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/lifeBuoysDescription.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/loadingScreen.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/loseGameAlertWindow.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/quizGame.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/quizRouteWrapper.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/settings.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/winGame.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducer/questionsReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/rootReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/types/questionsTypes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/route/QuizRouteWrapper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/route/RoutesWrapper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/game/CallAFriend.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/game/CallAFriend.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/globalReturnToMenu.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/globalReturnToMenu.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/quizRouteWrapper.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/quizRouteWrapper.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/route/QuizRouteWrapper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/route/QuizRouteWrapper.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +48,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="SVG" />
-    <property name="last_opened_file_path" value="//wsl$/Ubuntu/home/cris/NH/NerdHunters" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -190,6 +155,7 @@
       <workItem from="1649339089332" duration="1188000" />
       <workItem from="1649390519824" duration="594000" />
       <workItem from="1649445557435" duration="114000" />
+      <workItem from="1650702197685" duration="2085000" />
     </task>
     <servers />
   </component>

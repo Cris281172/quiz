@@ -40,7 +40,7 @@ const CallAFriend = ({setCueValue, setAlertWindowVisible, currentQuestion, setAn
 
 
     return(
-        <button  className={style.lifeBuoysItemButton} onClick={callAFriend}>Telefon do przyjaciela</button>
+        <button  className={style.lifeBuoysItemButton} onClick={callAFriend}>Telefon do Bill Gates</button>
     )
 }
 

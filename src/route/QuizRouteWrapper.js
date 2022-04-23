@@ -20,23 +20,25 @@ const QuizRouteWrapper = () => {
             <div className={styleGlobal.container}>
                 <nav className={styleGlobal.mainNav}>
                     <div className={styleGlobal.firstNav}>
-                        <Link className={style.levelsItem} to="easy">
-                            <div className={style.levelsItemTitle}>
-                                Łatwy
-                            </div>
-                        </Link>
+                        <div className={style.levelsWrapper}>
+                            <Link className={style.levelsItem} to="easy">
+                                <div className={style.levelsItemTitle}>
+                                    Łatwy
+                                </div>
+                            </Link>
 
-                        <Link className={style.levelsItem} to="hard">
-                            <div className={style.levelsItemTitle}>
-                                Cieżki
+                            <Link className={style.levelsItem} to="hard">
+                                <div className={style.levelsItemTitle}>
+                                    Cieżki
 
-                            </div>
-                        </Link>
-                        < GlobalReturnToMenu/>
-
+                                </div>
+                            </Link>
+                            < GlobalReturnToMenu/>
+                        </div>
                     </div>
                 </nav>
             </div>
+
 
         </>
 
