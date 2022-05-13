@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="87e3682d-d65e-458b-87a1-ed1c93908c93" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/game/CallAFriend.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/game/CallAFriend.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/globalReturnToMenu.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/globalReturnToMenu.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/quizRouteWrapper.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/quizRouteWrapper.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/route/QuizRouteWrapper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/route/QuizRouteWrapper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LifeBuoysDescription.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LifeBuoysDescription.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/game/InformationSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/game/InformationSection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/informationSection.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/informationSection.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +154,10 @@
       <workItem from="1649339089332" duration="1188000" />
       <workItem from="1649390519824" duration="594000" />
       <workItem from="1649445557435" duration="114000" />
-      <workItem from="1650702197685" duration="2085000" />
+      <workItem from="1650702197685" duration="4817000" />
+      <workItem from="1650889056930" duration="13000" />
+      <workItem from="1650891191615" duration="848000" />
+      <workItem from="1652439068516" duration="454000" />
     </task>
     <servers />
   </component>

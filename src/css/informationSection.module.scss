@@ -1,0 +1,28 @@
+.questionInformations {
+  border: 2px solid #a4a4a4;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .questionInformationsTitle{
+    font-weight: bold;
+    font-size: 25px;
+    color: #E99557;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .questionWrapperStat {
+    border: 2px solid #a4a4a4;
+
+    .questionStat {
+      margin: 10px;
+      color: #E99557;
+      font-size: 20px;
+      border: 1px solid #a4a4a4;
+      background: none;
+      padding: 10px;
+    }
+  }
+}
